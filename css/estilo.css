@@ -1,3 +1,9 @@
-.cor_oficial{
+.txt-oficial{
     color:#2b3392;
+}
+.bg-oficial{
+    background-color: #2b3392;
+    /* color: white !important;
+    color: white;
+    text-decoration: none; */
 }
