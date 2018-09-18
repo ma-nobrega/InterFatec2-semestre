@@ -15,28 +15,21 @@
 
 <body>
   <header>
-    <nav class="container navbar-white bg-white navbar-expand-lg">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <a href="index.html"><img src="img/ipiranga.png" height="60" width="200" alt="logo do site"></a>
-        </ul>
-        <ul class=" navbar-nav ml-auto">
-          <h4>
-            <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
-          </h4>
-          <h4>
-            <li class="nav-item"><a class="nav-link" href="ofertas.html">Ofertas</a></li>
-          </h4>
-          <h4>
+    <nav class="container navbar navbar-expand-lg navbar-primary bg-ligth">
+        <a href="#"><img src="img/logo.png" alt="Logo do site" height="50" width="150"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(atual)</span></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="oferta.html">Ofertas</a></li>
             <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-          </h4>
-        </ul>
-      </div>
-    </nav>
+          </ul>
+        </div>
+      </nav>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -125,38 +118,20 @@
       <div class="col-12">
         <h5 class="text-center text-muted">Cadastre-se para receber nossas ofertas!</h5>
       </div>
-      <div class="form-group row mt-4 mb-2 mx-auto">
-        <div class="col-12">
-          <input class="form-control" type="email" placeholder="E-mail" id="example-email-input">
-          <button class="btn bg-oficial"><a href=""> Cadastrar</a></button>
-        </div>
-      </div>
+      <form class="form-inline mx-auto">
+          <label class="sr-only" for="inlineFormInputName2">Name</label>
+          <label class="sr-only" for="inlineFormInputGroupUsername2">Email</label>
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="E-mail">
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Cadas</button>
+        </form>
     </div>
   </main>
-  <footer class="footer container py-2 bg-oficial text-white">
+  <footer class="footer container-fluid py-2 bg-oficial text-white">
     <div class="row text-center">
-      <div class="col-12 col-md-4 col-md-4">
-        <div class="row mt-3 mb-3">
-          <div class="col-12">
-            <div>
-                <h5 class="text-white"><strong>Lojas </strong></h5>
-                <p>Endereço : Av. Heitor Alves Gomes, 1001 Telefone (16) 3253-6995</p>
-                <p>Endereço : Rua Barão do Triunfo, 1075 Telefone (16) 3252-0804 </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4 col-md-4">
-        <div class="row mt-3 mb-3">
-          <div class="col-12">
-              <h5 class="text-white"><strong>Pague com </strong></h5>
-              <p>Dinheiro</p>
-              <p>Debito</p>
-              <p>Credito</p>
-              <button class="btn btn-light"><a href=""> Ver Mais</a></button>
-          </div>
-        </div>
-      </div>
       <div class="col-12 col-md-4 col-md-4">
         <div class="row mt-3 mb-3">
           <div class="col-12">
@@ -167,6 +142,27 @@
           </div>
         </div>
       </div>
+      <div class="col-12 col-md-4 col-md-4">
+        <div class="row mt-3 mb-3">
+          <div class="col-12">
+              <h5 class="text-white"><strong>Pague com </strong></h5>
+              <p>Dinheiro |
+               Debito |
+              Credito</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-md-4">
+          <div class="row mt-3 mb-3">
+            <div class="col-12">
+              <div>
+                  <h5 class="text-white"><strong>Lojas </strong></h5>
+                  <p>Endereço : Av. Heitor Alves Gomes, 1001 Telefone (16) 3253-6995</p>
+                  <p>Endereço : Rua Barão do Triunfo, 1075 Telefone (16) 3252-0804 </p>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
     <!-- /.container -->
   </footer>
