@@ -8,6 +8,8 @@
     background-color: #2b3392;
     color: white;
     border-color: #2b3392;
+    font-weight: bold;    
+    font-size: 16px;
 }
 .botão:hover {
     background-color: #2b3392;
